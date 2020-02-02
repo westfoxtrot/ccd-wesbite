@@ -1,0 +1,11 @@
+#IDE files
+.vscode/
+
+#now dev files
+.now/
+
+#gatsby dev files
+.cache/
+
+# node_modules 😰
+node_modules/
