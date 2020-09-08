@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/westfoxtrot/ccd-wesbite#readme",
   "dependencies": {
-    "boxicons": "^2.0.5",
     "bulma": "^0.9.0",
     "gatsby": "^2.24.15",
     "gatsby-image": "^2.2.40",
@@ -41,7 +40,6 @@
     "typography-theme-moraga": "^0.16.19"
   },
   "devDependencies": {
-    "@loadable/component": "^5.13.1",
     "@now/node": "^1.4.0",
     "prettier": "^1.19.1"
   }

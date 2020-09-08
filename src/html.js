@@ -7,7 +7,7 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-				<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+				<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
