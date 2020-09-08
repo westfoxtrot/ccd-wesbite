@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+$scheme-main: #141414;
+$text: #fbfef9;
+$content-heading-color: $text;
+$body-font-size: 14px;
+$turquoise: #5F9EA0;
+$body-line-height: 1.75;
+@import "~bulma/bulma.sass";
+
+html, body, #___gatsby, #gatsby-focus-wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.main, .content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero,.notification {
+	&.is-primary {
+		.title, .subtitle {
+			color: #000;
+		}
+		color: #000;
+	}
+}
+
+.navbar {
+	min-height: 75px;
+}
+
+.design-nav-item {
+	background-color: rgba($turquoise, 0.5);
+	transition: background-color 0.5s ease;
+
+	&:hover {
+		background-color: rgba($turquoise, 1);
+		transition: all 0.75s ease;
+	}
+
+	.title {
+		color: black;
+	}
+}
+
+.notification {
+	border-radius: 0;
+}

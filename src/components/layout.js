@@ -1,12 +1,13 @@
+import loadable from '@loadable/component'
 import React from 'react'
-import './layout.scss'
+import '../styles/layout.scss'
+import Header from './header.js'
+loadable(() => import ('boxicons'))
 export default ({ children }) => (
-	<div>
-		<div class="header">
-			<h1>Header placeholder</h1>
-		</div>
+	<div class="main">
+		<Header/>
 
-		<div class="body main">
+		<div class="content">
 			{children}
 		</div>
 	</div>
