@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link as GatsbyLink } from "gatsby"
+import { Helmet } from "react-helmet"
 import aanzeeurl from "../images/aanzee/1.jpg"
 import cypherurl from "../images/cypher/1.jpg"
 import propheturl from "../images/prophet/1.png"
@@ -10,6 +11,9 @@ import umizoiurl from "../images/umizoi/1.jpg"
 export default () => (
 	<Layout>
 		<div className="pt-4">
+		<Helmet>
+			<title>Designs - Cable Car Designs</title>
+		</Helmet>
 			<div className="columns">
 				<div className="container" style={{marginTop: '24px'}}>
 					<div className="columns">

@@ -32,11 +32,47 @@ html, body, #___gatsby, #gatsby-focus-wrapper{
 
 .navbar {
 	min-height: 75px;
+  .navbar-item {
+		
+		transition: all 0.5s ease;
+		
+		&:hover {
+			transition: all 0.5s ease;
+		}
+	}
+	&.is-black {
+
+		.navbar-dropdown {
+			border-top-color: $text;
+		}
+
+		.navbar-start > a.navbar-item,
+		.navbar-item.has-dropdown .navbar-link,
+		.navbar-dropdown a.navbar-item
+		{
+			&:hover {
+				background-color: $turquoise;
+				color: black;
+			}
+		}
+
+		.navbar-start > a.navbar-item.is-active,
+		.navbar-item.has-dropdown .navbar-link.is-active,
+		.navbar-dropdown a.navbar-item.is-active
+		{
+			background-color: $text;
+			color: black;
+
+			&:after {
+				border-color: black;
+			}
+		}
+	}
 }
 
 .design-nav-item {
 	background-color: rgba($turquoise, 0.5);
-	transition: background-color 0.5s ease;
+	transition: all 0.75s ease;
 
 	&:hover {
 		background-color: rgba($turquoise, 1);
@@ -50,4 +86,13 @@ html, body, #___gatsby, #gatsby-focus-wrapper{
 
 .notification {
 	border-radius: 0;
+}
+
+a {
+	color: $turquoise;
+	&:hover {
+		color: $text;
+		transition: all 0.5s ease;
+	}
+	transition: all 0.5s ease;
 }

@@ -1,8 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Helmet } from "react-helmet"
 export default () => (
 	<Layout>
 		<div className="container" style={{width: '100%'}}>
+			<Helmet>
+				<title>Contact - Cable Car Designs</title>
+			</Helmet>
 			<section class="hero is-primary">
 				<div class="hero-body">
 					<div class="container">
