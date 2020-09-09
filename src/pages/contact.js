@@ -30,7 +30,7 @@ export default () => (
 						</a>
 					</div>
 					<div className="level-item has-text-centered">
-						<a href="https://discord.gg/5GHFAtb" target="_blank" rel="noreferrer">
+						<a href="https://www.instagram.com/cablecardesigns/" target="_blank" rel="noreferrer">
 							<box-icon name='instagram' type='logo' color="white" size="lg"></box-icon>
 							<p>Instagram</p>
 						</a>
