@@ -36,6 +36,8 @@ export default () => (
 							<p>Another feature was to try and keep the board as low as possible with a shallow angle to ensure it was comfortable for extended use.</p>
 							<p></p>
 							<p>The overall reception to this board has been overwhelmingly positive and I'm always working to make sure as many get into people's hands as possible.</p>
+							<p><a href="https://geekhack.org/index.php?topic=101491">geekhack GB thread</a></p>
+							<p><a href="https://geekhack.org/index.php?topic=100943">geekhack IC thread</a></p>
 						</div>
 					</div>
 				</div>
