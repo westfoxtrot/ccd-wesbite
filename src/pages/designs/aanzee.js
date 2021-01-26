@@ -31,7 +31,7 @@ export default () => (
 					<div className="column">
 						<div className="content">
 							<h3 className="title">About this board:</h3>
-							<p>The ‘aanzee’ is a custom 65% keyboard I designed in the first half of 2018. The design went through several iterations before holding a group buy in November of 2018 with an estimated ship date of March 2019.</p>
+							<p>The ‘aanzee’ is a custom 65% keyboard I designed in the first half of 2018. The design went through several iterations before holding a group buy in November of 2018 which shipped in 2019.</p>
 							<p>With this board I aimed to create a board with a subtle signature that was easily recognisable. To this aim I’ve got a few unique features. First off I have a straight line at the front and back of the board accented by the plate itself stepping through the sides of the case.</p>
 							<p>In the original design this was designed to be Blue with a brass plate to accent, hence the name which is Dutch for “on sea”</p>
 							<p>I’ve also included a slight slope raise of height between the front and the back of the board to surround the caps a little more, higher at the back than at the front. It’s 7mm at the front and 9mm at the back. It’s a small difference but, for me, it creates a unique structure to the board.</p>
