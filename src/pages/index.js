@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Link as GatsbyLink } from "gatsby";
 import aanzeeurl from "../images/aanzee/1.jpg"
 import cypherurl from "../images/cypher/1.jpg"
 import cypher2url from "../images/cypher/2.jpg"
@@ -26,46 +27,46 @@ export default () => (
 			<section class="container" style={{ marginTop: '24px'}}>
 				<div className="columns">
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/aanzee" className="content">
 							<img src={aanzeeurl} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/cypher" className="content">
 							<img src={cypherurl} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/prophet" className="content">
 							<img src={propheturl} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/angel" className="content">
 							<img src={angelurl} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 				</div>
 				<div className="columns">
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/lockheed" className="content">
 							<img src={lockheedurl} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/umizoi" className="content">
 							<img src={umizoiurl} alt="umizoi v1 prototype with GMK Dualshot" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/prophet" className="content">
 							<img src={prophet2url} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 					<div className="column">
-						<div className="content">
+						<GatsbyLink to="/designs/cypher" className="content">
 							<img src={cypher2url} alt="" style={{marginBottom: '0'}}/>
-						</div>
+						</GatsbyLink>
 					</div>
 				</div>
 			</section>

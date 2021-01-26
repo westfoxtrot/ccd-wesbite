@@ -48,8 +48,14 @@ const Header = () => {
 								<GatsbyLink className="navbar-item" to="/designs/cypher" activeClassName="is-active">
 									cypher
 								</GatsbyLink>
-								<GatsbyLink className="navbar-item" to="/keyboards/prophet" activeClassName="is-active">
+								<GatsbyLink className="navbar-item" to="/designs/prophet" activeClassName="is-active">
 									Prophet
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/designs/angel" activeClassName="is-active">
+									Angel
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/designs/phoenix" activeClassName="is-active">
+									Phoenix
 								</GatsbyLink>
 							</div>
 						</div>
