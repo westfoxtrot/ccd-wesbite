@@ -11,7 +11,7 @@ import lockheedurl from "../images/lockheed/1.png"
 import umizoiurl from "../images/umizoi/1.jpg"
 export default () => (
 	<Layout>
-		<div className="container ">
+		<div className="container homepage">
 			<section class="hero is-primary">
 				<div class="hero-body">
 					<div class="container">
