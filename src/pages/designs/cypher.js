@@ -22,9 +22,9 @@ export default () => (
 			</section>
 			<section class="container" style={{ marginTop: '24px'}}>
 				<div className="columns">
-					<div className="column">
-						<div className="content">
-							<img src={img1url} alt=""/>
+					<div className="column design-left">
+						<div className="content image-wrapper">
+							<img className="image-obj" src={img1url} alt=""/>
 						</div>
 						<div className="notification is-primary"  style={{marginTop: 'auto'}}><strong>Status:</strong> Round 2 GB Concluded</div>
 					</div>

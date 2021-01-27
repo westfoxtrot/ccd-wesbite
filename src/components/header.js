@@ -60,6 +60,30 @@ const Header = () => {
 							</div>
 						</div>
 
+						<div class="navbar-item has-dropdown is-hoverable">
+							<GatsbyLink className="navbar-link" activeClassName="is-active" to="/resources" partiallyActive={true}>
+								Resources
+							</GatsbyLink>
+
+							<div class="navbar-dropdown">
+								<GatsbyLink className="navbar-item" to="/resources/aanzee" activeClassName="is-active">
+									aanzee
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/resources/cypher" activeClassName="is-active">
+									cypher
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/resources/prophet" activeClassName="is-active">
+									Prophet
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/resources/angel" activeClassName="is-active">
+									Angel
+								</GatsbyLink>
+								<GatsbyLink className="navbar-item" to="/resources/phoenix" activeClassName="is-active">
+									Phoenix
+								</GatsbyLink>
+							</div>
+						</div>
+
 						<GatsbyLink className="navbar-item" activeClassName="is-active" to="/contact">
 							Contact
 						</GatsbyLink>

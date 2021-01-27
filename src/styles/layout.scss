@@ -19,6 +19,26 @@ html, body, #___gatsby, #gatsby-focus-wrapper{
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
+
+	.homepage { 
+		width: 100%;
+	}
+	.image-wrapper {
+		position: relative;
+		padding-top: 56.25%;
+		width: 100%;
+		.image-obj {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+	}
+	.design-left {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .hero,.notification {

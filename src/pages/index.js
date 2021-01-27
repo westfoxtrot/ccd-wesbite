@@ -11,7 +11,7 @@ import lockheedurl from "../images/lockheed/1.png"
 import umizoiurl from "../images/umizoi/1.jpg"
 export default () => (
 	<Layout>
-		<div className="container">
+		<div className="container ">
 			<section class="hero is-primary">
 				<div class="hero-body">
 					<div class="container">
@@ -27,45 +27,45 @@ export default () => (
 			<section class="container" style={{ marginTop: '24px'}}>
 				<div className="columns">
 					<div className="column">
-						<GatsbyLink to="/designs/aanzee" className="content">
-							<img src={aanzeeurl} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/aanzee" className="content image-wrapper">
+							<img className="image-obj"  src={aanzeeurl} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/cypher" className="content">
-							<img src={cypherurl} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/cypher" className="content image-wrapper">
+							<img className="image-obj"  src={cypherurl} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/prophet" className="content">
-							<img src={propheturl} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/prophet" className="content image-wrapper">
+							<img className="image-obj"  src={propheturl} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/angel" className="content">
-							<img src={angelurl} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/angel" className="content image-wrapper">
+							<img className="image-obj"  src={angelurl} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 				</div>
 				<div className="columns">
 					<div className="column">
-						<GatsbyLink to="/designs/lockheed" className="content">
-							<img src={lockheedurl} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/lockheed" className="content image-wrapper">
+							<img className="image-obj"  src={lockheedurl} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/umizoi" className="content">
-							<img src={umizoiurl} alt="umizoi v1 prototype with GMK Dualshot" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/umizoi" className="content image-wrapper">
+							<img className="image-obj"  src={umizoiurl} alt="umizoi v1 prototype with GMK Dualshot" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/prophet" className="content">
-							<img src={prophet2url} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/prophet" className="content image-wrapper">
+							<img className="image-obj"  src={prophet2url} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 					<div className="column">
-						<GatsbyLink to="/designs/cypher" className="content">
-							<img src={cypher2url} alt="" style={{marginBottom: '0'}}/>
+						<GatsbyLink to="/designs/cypher" className="content image-wrapper">
+							<img className="image-obj"  src={cypher2url} alt="" style={{marginBottom: '0'}}/>
 						</GatsbyLink>
 					</div>
 				</div>
