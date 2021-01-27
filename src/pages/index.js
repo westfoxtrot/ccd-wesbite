@@ -12,19 +12,19 @@ import umizoiurl from "../images/umizoi/1.jpg"
 export default () => (
 	<Layout>
 		<div className="container homepage">
-			<section class="hero is-primary">
-				<div class="hero-body">
-					<div class="container">
-						<h1 class="title is-1">
+			<section className="hero is-primary">
+				<div className="hero-body">
+					<div className="container">
+						<h1 className="title is-1">
 							Cable Car Designs
 						</h1>
-						<h2 class="subtitle is-6">
+						<h2 className="subtitle is-6">
 							End to End Custom Mechanical Keyboard designs
 						</h2>
 					</div>
 				</div>
 			</section>
-			<section class="container" style={{ marginTop: '24px'}}>
+			<section className="container" style={{ marginTop: '24px'}}>
 				<div className="columns">
 					<div className="column">
 						<GatsbyLink to="/designs/aanzee" className="content image-wrapper">
@@ -71,7 +71,7 @@ export default () => (
 				</div>
 			</section>
 			<section className="container d-flex">
-				<div class="notification is-danger" style={{ marginTop: '24px'}}>
+				<div className="notification is-danger" style={{ marginTop: '24px'}}>
 					The site is currently a work in progress. Please bear with me while I try to improve it
 				</div>
 			</section>

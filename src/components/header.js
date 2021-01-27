@@ -16,14 +16,14 @@ const Header = () => {
 	}
 
 	return (
-		<nav class="navbar is-black" role="navigation" aria-label="main navigation">
-			<div class="container">
-				<div class="navbar-brand">
-					<a href="/" class="is-spaced">
+		<nav className="navbar is-black" role="navigation" aria-label="main navigation">
+			<div className="container">
+				<div className="navbar-brand">
+					<a href="/" className="is-spaced">
 						<img src={logourl} alt="Cable Car Designs Logo" width="150" style={{margin: '5px 5px 0px'}}></img>
 					</a>
 
-					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain" href="#mobilemenu" onClick={() => handleClick()}>
+					<a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain" href="#mobilemenu" onClick={() => handleClick()}>
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
@@ -31,17 +31,17 @@ const Header = () => {
 				</div>
 
 				<div id="nav" className={navClasses} >
-					<div class="navbar-start">
+					<div className="navbar-start">
 						<GatsbyLink className="navbar-item" activeClassName="is-active" to="/">
 							Home
 						</GatsbyLink>
 
-						<div class="navbar-item has-dropdown is-hoverable">
+						<div className="navbar-item has-dropdown is-hoverable">
 							<GatsbyLink className="navbar-link" activeClassName="is-active" to="/designs" partiallyActive={true}>
 								Designs
 							</GatsbyLink>
 
-							<div class="navbar-dropdown">
+							<div className="navbar-dropdown">
 								<GatsbyLink className="navbar-item" to="/designs/aanzee" activeClassName="is-active">
 									aanzee
 								</GatsbyLink>
@@ -60,12 +60,12 @@ const Header = () => {
 							</div>
 						</div>
 
-						<div class="navbar-item has-dropdown is-hoverable">
+						<div className="navbar-item has-dropdown is-hoverable">
 							<GatsbyLink className="navbar-link" activeClassName="is-active" to="/resources" partiallyActive={true}>
 								Resources
 							</GatsbyLink>
 
-							<div class="navbar-dropdown">
+							<div className="navbar-dropdown">
 								<GatsbyLink className="navbar-item" to="/resources/aanzee" activeClassName="is-active">
 									aanzee
 								</GatsbyLink>

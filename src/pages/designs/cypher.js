@@ -8,19 +8,19 @@ export default () => (
 			<Helmet>
 				<title>cypher - Cable Car Designs</title>
 			</Helmet>
-			<section class="hero is-primary">
-				<div class="hero-body">
-					<div class="container">
-						<h1 class="title is-1">
+			<section className="hero is-primary">
+				<div className="hero-body">
+					<div className="container">
+						<h1 className="title is-1">
 							cypher
 						</h1>
-						<h2 class="subtitle is-6">
+						<h2 className="subtitle is-6">
 							Top mount f-row less 1800 compact 1800
 						</h2>
 					</div>
 				</div>
 			</section>
-			<section class="container" style={{ marginTop: '24px'}}>
+			<section className="container" style={{ marginTop: '24px'}}>
 				<div className="columns">
 					<div className="column design-left">
 						<div className="content image-wrapper">

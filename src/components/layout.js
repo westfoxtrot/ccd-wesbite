@@ -4,10 +4,10 @@ import Header from './header.js'
 import { Helmet } from "react-helmet"
 import favicon from '../images/favicon.ico'
 export default ({ children }) => (
-	<div class="main">
+	<div className="main">
 		<Header/>
 
-		<div class="content">
+		<div className="content">
 			<Helmet>
 				<meta charSet="utf-8" />
 				<title>Cable Car Designs</title>
