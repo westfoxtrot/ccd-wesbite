@@ -24,7 +24,7 @@
   "homepage": "https://github.com/westfoxtrot/ccd-wesbite#readme",
   "dependencies": {
     "bulma": "^0.9.0",
-    "gatsby": "^2.24.15",
+    "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.1.28",
